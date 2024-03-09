@@ -1,0 +1,17 @@
+global using Xunit;
+global using Moq;
+global using AutoFixture;
+global using HumanCapitalManagement.API.Controllers;
+global using HumanCapitalManagement.Entities.DTOs.ContractDTOs;
+global using HumanCapitalManagement.Service.Services;
+global using HumanCapitalManagement.Entities.DTOs.InstitutionDTOs;
+global using HumanCapitalManagement.Entities.DTOs.EmployeeDTOs;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.JsonPatch;
+global using Microsoft.AspNetCore.Mvc;
+global using HumanCapitalManagement.Entities.DTOs.SkillDTOs;
+global using HumanCapitalManagement.Entities.DTOs.JobTitleDTOs;
+global using HumanCapitalManagement.Entities.DTOs.FacultyDTOs;
+global using HumanCapitalManagement.Entities.DTOs.StudyProgramDTOs;
+global using HumanCapitalManagement.Domain.Models;
+global using HumanCapitalManagement.Entities.DTOs.FeedbackDTOs;

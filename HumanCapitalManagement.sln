@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanCapitalManagement.Domain", "HumanCapitalManagement.Domain\HumanCapitalManagement.Domain.csproj", "{2F58EDFC-8123-414A-9C77-A73AA45C4D18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanCapitalManagement.Persistance", "HumanCapitalManagement.Persistance\HumanCapitalManagement.Persistance.csproj", "{5956B5A7-DCA7-4648-86B0-CBA48BC6DDFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanCapitalManagement.Entities", "HumanCapitalManagement.Entities\HumanCapitalManagement.Entities.csproj", "{7D0BD554-23DC-47E8-958E-EE219E09F74B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanCapitalManagement.API", "HumanCapitalManagement.API\HumanCapitalManagement.API.csproj", "{826C89AF-2343-4E8A-9B8D-485EECAACA98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanCapitalManagement.Service", "HumanCapitalManagement.Service\HumanCapitalManagement.Service.csproj", "{56A747D7-1FBF-4342-BFBE-54B71CB77BF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanCapitalManagement.Utilities", "HumanCapitalManagement.Utilities\HumanCapitalManagement.Utilities.csproj", "{4A924892-974A-42FC-9D90-29025DB4D959}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanCapitalManagement.Service.Tests", "HumanCapitalManagement.Service.Tests\HumanCapitalManagement.Service.Tests.csproj", "{850BAF59-15DB-45CE-9D31-579EE4A11004}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanCapitalManagement.API.Tests", "HumanCapitalManagement.API.Tests\HumanCapitalManagement.API.Tests.csproj", "{4C90E0D4-F462-433B-8AB5-356A8767875D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanCapitalManagement.Persistance.Tests", "HumanCapitalManagement.Persistance.Tests\HumanCapitalManagement.Persistance.Tests.csproj", "{D3CD05BF-4DDF-45E2-A4CC-E8BDC03A0120}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanCapitalManagement.API.Validators.Tests", "HumanCapitalManagement.API.Validators.Tests\HumanCapitalManagement.API.Validators.Tests.csproj", "{2AB5DE5E-DCED-4D65-B87A-A56B1649AFAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F58EDFC-8123-414A-9C77-A73AA45C4D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F58EDFC-8123-414A-9C77-A73AA45C4D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F58EDFC-8123-414A-9C77-A73AA45C4D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F58EDFC-8123-414A-9C77-A73AA45C4D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5956B5A7-DCA7-4648-86B0-CBA48BC6DDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5956B5A7-DCA7-4648-86B0-CBA48BC6DDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5956B5A7-DCA7-4648-86B0-CBA48BC6DDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5956B5A7-DCA7-4648-86B0-CBA48BC6DDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0BD554-23DC-47E8-958E-EE219E09F74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0BD554-23DC-47E8-958E-EE219E09F74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0BD554-23DC-47E8-958E-EE219E09F74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0BD554-23DC-47E8-958E-EE219E09F74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826C89AF-2343-4E8A-9B8D-485EECAACA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826C89AF-2343-4E8A-9B8D-485EECAACA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826C89AF-2343-4E8A-9B8D-485EECAACA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826C89AF-2343-4E8A-9B8D-485EECAACA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A747D7-1FBF-4342-BFBE-54B71CB77BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A747D7-1FBF-4342-BFBE-54B71CB77BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A747D7-1FBF-4342-BFBE-54B71CB77BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A747D7-1FBF-4342-BFBE-54B71CB77BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A924892-974A-42FC-9D90-29025DB4D959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A924892-974A-42FC-9D90-29025DB4D959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A924892-974A-42FC-9D90-29025DB4D959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A924892-974A-42FC-9D90-29025DB4D959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850BAF59-15DB-45CE-9D31-579EE4A11004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850BAF59-15DB-45CE-9D31-579EE4A11004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850BAF59-15DB-45CE-9D31-579EE4A11004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850BAF59-15DB-45CE-9D31-579EE4A11004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C90E0D4-F462-433B-8AB5-356A8767875D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C90E0D4-F462-433B-8AB5-356A8767875D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C90E0D4-F462-433B-8AB5-356A8767875D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C90E0D4-F462-433B-8AB5-356A8767875D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CD05BF-4DDF-45E2-A4CC-E8BDC03A0120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CD05BF-4DDF-45E2-A4CC-E8BDC03A0120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CD05BF-4DDF-45E2-A4CC-E8BDC03A0120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CD05BF-4DDF-45E2-A4CC-E8BDC03A0120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB5DE5E-DCED-4D65-B87A-A56B1649AFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB5DE5E-DCED-4D65-B87A-A56B1649AFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB5DE5E-DCED-4D65-B87A-A56B1649AFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB5DE5E-DCED-4D65-B87A-A56B1649AFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14139035-32A7-432D-B9C2-693251C8AE30}
+	EndGlobalSection
+EndGlobal

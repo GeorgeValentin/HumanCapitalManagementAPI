@@ -1,0 +1,11 @@
+global using Xunit;
+global using AutoFixture;
+global using FluentValidation.TestHelper;
+global using HumanCapitalManagement.API.Validators.EmployeeValidators;
+global using HumanCapitalManagement.Entities.DTOs.EmployeeDTOs;
+global using HumanCapitalManagement.Domain.Models;
+global using HumanCapitalManagement.Domain.Data;
+global using HumanCapitalManagement.Utilities.FixtureUtils;
+global using Microsoft.EntityFrameworkCore;
+global using HumanCapitalManagement.API.Validators.InstitutionValidators;
+global using HumanCapitalManagement.Entities.DTOs.InstitutionDTOs;
